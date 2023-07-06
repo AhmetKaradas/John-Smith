@@ -1,0 +1,110 @@
+.navbar{
+    height: 60px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{
+            margin-right: 40px;
+            
+            a{  transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: $wht;
+                font-size: 20px;
+                font-weight: bold;
+                &:hover{
+                    color: $org;
+                    
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.cont-main{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-weight: normal;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .cont-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        div{
+            text-align: center;
+            margin: 10px;
+            font-size: 20px;
+            i{
+                margin-right: 5px;
+                font-size: larger;
+            }
+            .t-p{
+                color: $org;
+            }
+        }
+    }
+}
+
+.cont-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        li{
+           margin-left: 20px;
+           a{  transition-property: all;
+                    transition-duration: 700ms;
+                    text-decoration: none;
+                    color: $wht;
+                    font-size: 12px;
+                    font-weight: bold;
+                    &:hover{
+                        color: $org;
+                        
+                    }
+                    &:active{
+                        color: $org;
+                    }
+        
+                }
+           .fa-brands{
+                font-size: 2.5em;
+
+                
+           }    
+        }
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0px;
+        font-size: 18px;
+
+    } 
+
+}

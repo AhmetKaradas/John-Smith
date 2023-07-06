@@ -1,0 +1,18 @@
+@import "./scss/base/reset";
+
+@import "./scss/abstracts/variables";
+
+@import "./scss/pages/home", "./scss/pages/about", "./scss/pages/projects", "./scss/pages/contact";
+
+body{
+    font-family: $font1;
+    line-height: 1;
+    color: $wht;
+    background-color: $bg-color;
+    overflow: scroll;
+
+}
+
+//Ahmet Karadaş
+
+

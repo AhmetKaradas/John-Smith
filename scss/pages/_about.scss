@@ -1,0 +1,143 @@
+
+
+.img-about{
+    background: linear-gradient(to left, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(img/model-1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.navbar-about{
+    height: 60px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{
+            margin-right: 40px;
+            
+            a{  transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: #eee;
+                font-size: 20px;
+                font-weight: bold;
+                &:hover{
+                    color: $org;
+                    
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+
+.main-about{
+    height: 400px;
+    margin-bottom: 40px;
+    .sec1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        margin-bottom: 50px;
+        h1{
+            font-size: 3rem;
+            color: $org;    
+        }
+        p{
+            font-size: 20px;
+            text-align: center;
+            margin: 15px;
+        }
+    }
+
+}
+
+.sec2{
+    width: 70% ;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .box1, .box2, .box3{
+        margin: 1rem;
+        background-color: #414141;
+        padding: 1rem;
+        border-bottom: 5px solid $org;
+        
+
+    }
+    h2, h3, h6, p{
+        margin: 7px;
+    }
+
+}
+
+.hor-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        li{
+           margin-bottom: 20px;
+           
+           
+           a{       transition-property: all;
+                    transition-duration: 700ms;
+                    text-decoration: none;
+                    color: $wht;
+                    font-size: 12px;
+                    font-weight: bold;
+                    &:hover{
+                        color: $org;
+                        
+                    }
+                    &:active{
+                        color: $org;
+                    }
+        
+                }
+           .fa-brands{
+                font-size: 2.5em;
+
+                
+           }    
+        }
+
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 15px;
+        font-size: 18px;
+        color: $wht;
+        position: fixed;
+        bottom: 1.5rem;
+        right: 3rem;
+        transform: rotate(90deg) translate(-3rem, -5rem);
+
+    } 
+}

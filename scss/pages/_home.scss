@@ -1,0 +1,104 @@
+.navbar{
+    height: 60px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{
+            margin-right: 40px;
+            
+            a{  transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: $wht;
+                font-size: 20px;
+                font-weight: bold;
+                &:hover{
+                    color: $org;
+                    
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.main{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 25px;
+        font-weight: normal;
+        margin: 10px;
+    }
+    h1{
+        font-size: 4.5em;
+        font-weight: normal;
+        padding: 30px;
+        border-bottom: 2px solid $wht;
+        .smith{
+            font-weight: bold;
+            color: $org;
+        }
+        
+    }
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        align-items: flex-end;
+        li{
+           margin-left: 20px;
+           a{  transition-property: all;
+                    transition-duration: 700ms;
+                    text-decoration: none;
+                    color: $wht;
+                    font-size: 12px;
+                    font-weight: bold;
+                    &:hover{
+                        color: $org;
+                        
+                    }
+                    &:active{
+                        color: $org;
+                    }
+        
+                }
+           .fa-brands{
+                font-size: 2.5em;
+
+                
+           }    
+        }
+    }          
+
+
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 15px;
+        font-size: 18px;
+
+    } 
+}

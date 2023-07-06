@@ -1,0 +1,123 @@
+.navbar{
+    height: 60px;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{
+            margin-right: 40px;
+            
+            a{  transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: $wht;
+                font-size: 20px;
+                font-weight: bold;
+                &:hover{
+                    color: $org;
+                    
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.img-main{
+    height: auto;
+    h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .img-container{
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem 5rem;
+            gap: 1rem 0.5rem;
+        .img-box{
+            border-bottom: 5px solid $org;
+           
+                
+            .p-img{
+                width: 500px;
+                &:hover {
+                    background-color: $org;
+                    opacity: 30%;
+                    transition: all 0.5s;
+                }
+            }
+
+            
+            
+        }
+    }
+}
+
+.hor-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        li{
+           margin-bottom: 20px;
+           
+           
+           a{       transition-property: all;
+                    transition-duration: 700ms;
+                    text-decoration: none;
+                    color: $wht;
+                    font-size: 12px;
+                    font-weight: bold;
+                    &:hover{
+                        color: $org;
+                        
+                    }
+                    &:active{
+                        color: $org;
+                    }
+        
+                }
+           .fa-brands{
+                font-size: 2.5em;
+
+                
+           }    
+        }
+
+    }
+
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 15px;
+        font-size: 18px;
+        color: $wht;
+        position: fixed;
+        bottom: 1.5rem;
+        right: 3rem;
+        transform: rotate(90deg) translate(-3rem, -5rem);
+
+    } 
+}
+
